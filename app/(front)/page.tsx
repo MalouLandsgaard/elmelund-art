@@ -1,6 +1,7 @@
 import Banner from "@/components/Banner/Banner";
 import AnimatedSVG from "@/components/AnimatedLogo/AnimatedLogo";
 import Link from "next/link";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -15,8 +16,9 @@ export default function Home() {
       allta is a modern irish fine dining restaurant by chef niall davidson. our menu tells a story of time and place, capturing the best ingredients ireland has to offer. in each moment, every dish is shaped by our travels, our connection to nature, and a commitment to sustainability. the dining room blends fun and sophistication with the energy of the open kitchen alongside a soundtrack played over our bespoke toby hatchett sound system.
       </p>
       <Link href="/gallery">Gallery</Link>
+      <Footer />
       </div>
-    
+
     </div>
   );
 }

@@ -12,6 +12,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-azeret-mono);
   --font-lora: var(--font-lora);
+  --text-sm--line-height: 1.8;
 }
 
 @media (prefers-color-scheme: dark) {
